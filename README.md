@@ -11,6 +11,13 @@ Recreating the Build
 
 While the library is ready to use, if you want to recreate the build the script used to download and compile the library can be found in the file `libvorbis_build.bash`. It relies on a number of utility scripts which can be found in my http://github.com/iosdevzone/IDZBuild repository. You will also need libogg.
 
+Also requires `autoconf` and `libtool`:
+
+```
+brew install automake
+brew install libtool
+```
+
 The following steps will recreate the build from scratch.
 
 ```
